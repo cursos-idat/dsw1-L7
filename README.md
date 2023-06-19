@@ -65,6 +65,8 @@
 - Guia Rest: https://spring.io/guides/gs/rest-service/
 - Docker, Dockerfile, docker-compose
 - render.com
+  - simple rest
+  - pg db
 - Practica:
   - Ejecutar la [guia Rest](https://spring.io/guides/gs/rest-service/) y desplegarla en [render](https://render.com) 
   - Referencia: https://github.com/texai/render-rest-saludo
@@ -82,8 +84,9 @@
   - Entregable: URL .onrender.com y URL del Repo
     - GET url.onrender.com/demo/all
     - POST url.onrender.com/demo/add
+   
+## Backlog
+
 - StackOverflow survey
-  - simple rest
-  - pg db
-- [GitHub Code Spaces]
+- GitHub Code Spaces
 
