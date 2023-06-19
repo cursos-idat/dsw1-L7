@@ -66,7 +66,7 @@
 - Docker, Dockerfile, docker-compose
 - render.com
 - Practica:
-  - Ejecutar la [guia Rest](https://spring.io/guides/gs/rest-service/) y desplegarla en [render](render.com) 
+  - Ejecutar la [guia Rest](https://spring.io/guides/gs/rest-service/) y desplegarla en [render](https://render.com) 
   - Referencia: https://github.com/texai/render-rest-saludo
   - Pasos:
     - Crear el proyecyo java https://start.spring.io/
