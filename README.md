@@ -79,6 +79,9 @@
 - Partica (+5 participacion)
   - Desplegar en render la implementación de la guia https://spring.io/guides/gs/accessing-data-mysql/ pero para Postrge
   - Referencia: https://github.com/texai/render-rest-saludo/commit/0dc2a5bfadca63b567a37d2c9252c6d1d1de991a
+  - Entregable: URL .onrender.com
+    - GET url.onrender.com/demo/all
+    - POST url.onrender.com/demo/add
 - StackOverflow survey
   - simple rest
   - pg db
