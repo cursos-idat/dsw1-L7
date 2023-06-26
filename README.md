@@ -85,8 +85,11 @@
     - GET url.onrender.com/demo/all
     - POST url.onrender.com/demo/add
    
-## Backlog
+## Semana 6
 
+- GitHub CodeSpaces
+  - Alternativa a Github CodeSpaces: https://gitpod.io/
+- CodeSpaces + Render + PostgreSQL
 - StackOverflow survey
-- GitHub Code Spaces
+- 
 
