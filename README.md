@@ -88,7 +88,10 @@
 ## Semana 6
 
 - GitHub CodeSpaces
-  - Alternativa a Github CodeSpaces: https://gitpod.io/
+  - Entorno de desarrollo cloud, nos evita configurar un entorno de desarrollo local, con posibles conflictos entre diferentes versiones de Java
+  - 60 horas gratis al mes  
+  - Detalles: https://github.com/features/codespaces
+  - Alternativa a Github CodeSpaces: https://gitpod.io/ (50 horas gratis al mes)
 - CodeSpaces + Render + PostgreSQL
 - StackOverflow survey
 - 
