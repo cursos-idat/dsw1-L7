@@ -91,6 +91,7 @@
   - Entorno de desarrollo cloud, nos evita configurar un entorno de desarrollo local, con posibles conflictos entre diferentes versiones de Java
   - 60 horas gratis al mes  
   - Detalles: https://github.com/features/codespaces
+  - Reporte de uso de Github Codespaces: https://github.com/settings/billing
   - Alternativa a Github CodeSpaces: https://gitpod.io/ (50 horas gratis al mes)
 - CodeSpaces + Render + PostgreSQL
 - StackOverflow survey
