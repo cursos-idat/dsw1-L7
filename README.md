@@ -105,7 +105,8 @@
     - Hacer público el puerto 8080
   - Práctica Render + CodeSpaces
     - Escribir un Dockerfile: https://github.com/texai/render-rest-saludo/blob/main/Dockerfile
-    - ./mvnw clean package
+    - Abrir el terminal y ejecutar `chmod +x mvnw`
+    - Luego ejecutar el comando: `./mvnw clean package`
     - Crear una app web en render
     - Vincular al repositorio
     - Probar ...onrender.com/
