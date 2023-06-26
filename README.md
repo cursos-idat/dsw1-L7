@@ -93,7 +93,7 @@
   - Detalles: https://github.com/features/codespaces
   - Reporte de uso de Github Codespaces: https://github.com/settings/billing
   - Alternativa a Github CodeSpaces: https://gitpod.io/ (50 horas gratis al mes)
-  - Pasos práctica:
+  - Práctica CodeSpaces:
     - Crear repo nuevo en GitHub (con un archivo Readme): https://github.com/new
     - Abrir su repo nuevo con CodeSpaces: https://github.com/codespaces/new
     - Crear un nuevo proyecto java (con depencia Spring Web): https://start.spring.io/
@@ -103,6 +103,16 @@
     - Abrir ...Application.java
     - Click en Run and Debug
     - Hacer público el puerto 8080
+  - Práctica Render + CodeSpaces
+    - Escribir un Dockerfile: https://github.com/texai/render-rest-saludo/blob/main/Dockerfile
+    - ./mvnw clean package
+    - Crear una app web en render
+    - Vincular al repositorio
+    - Probar ...onrender.com/
+
+
+
+
 - CodeSpaces + Render + PostgreSQL
 - StackOverflow survey
 - 
