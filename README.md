@@ -113,9 +113,10 @@
     - Vincular al repositorio
     - Probar ...onrender.com/
   - Práctica CodeSpaces + Render + PostgreSQL
-    - Agregar dependencias al archivo pom.xml (JPA, postgresql)
-    - Añadir un nuevo controlador ApiController.java
-    - Añadir clases: User.java y UserRepository.java
+    - Referencia: https://github.com/texai/idat-dsw1-accessing-data-mysql [*]
+    - Agregar dependencias al archivo pom.xml (JPA, postgresql) [*]
+    - Añadir un nuevo controlador ApiController.java [*]
+    - Añadir clases: User.java y UserRepository.java [*]
     - En Render.com crear la BD PostgreSQL
     - Configurar archivo application.properties con los datos de conexion de la BD PostgreSQL
     - Luego ejecutar el comando: `./mvnw clean package`
