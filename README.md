@@ -93,6 +93,16 @@
   - Detalles: https://github.com/features/codespaces
   - Reporte de uso de Github Codespaces: https://github.com/settings/billing
   - Alternativa a Github CodeSpaces: https://gitpod.io/ (50 horas gratis al mes)
+  - Pasos práctica:
+    - Crear repo nuevo en GitHub (con un archivo Readme): https://github.com/new
+    - Abrir su repo nuevo con CodeSpaces: https://github.com/codespaces/new
+    - Crear un nuevo proyecto java (con depencia Spring Web): https://start.spring.io/
+    - Pasar los archivos generados hacia CodeSpaces
+    - Crear un nuevo controlador (según ejemplo)
+    - Instalar la extensión "Extension Pack for Java" en el visual studio code del CodeSpaces
+    - Abrir ...Application.java
+    - Click en Run and Debug
+    - Hacer público el puerto 8080
 - CodeSpaces + Render + PostgreSQL
 - StackOverflow survey
 - 
