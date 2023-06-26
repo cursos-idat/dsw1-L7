@@ -103,7 +103,7 @@
     - Abrir ...Application.java
     - Click en Run and Debug
     - Hacer público el puerto 8080
-  - Práctica Render + CodeSpaces
+  - Práctica CodeSpaces + Render
     - Escribir un Dockerfile: https://github.com/texai/render-rest-saludo/blob/main/Dockerfile
     - Abrir el archivo .gitignore y borrar la linea que dice: `target/`
     - Abrir el terminal y ejecutar `chmod +x mvnw`
@@ -112,10 +112,17 @@
     - Crear una app web en render
     - Vincular al repositorio
     - Probar ...onrender.com/
-
-
-
-
+  - Práctica CodeSpaces + Render + PostgreSQL
+    - Agregar dependencias al archivo pom.xml (JPA, postgresql)
+    - Añadir un nuevo controlador ApiController.java
+    - Añadir clases: User.java y UserRepository.java
+    - En Render.com crear la BD PostgreSQL
+    - Configurar archivo application.properties con los datos de conexion de la BD PostgreSQL
+    - Luego ejecutar el comando: `./mvnw clean package`
+    - Realizar commit y push (Sync)
+    - Instalar en el VS code de CodeSpaces la extensión: Rest Client
+    - Escribir archivo reqs.http
+    - Probar ...onrender.com/
 - CodeSpaces + Render + PostgreSQL
 - StackOverflow survey
 - 
