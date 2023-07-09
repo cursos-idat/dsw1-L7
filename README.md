@@ -62,6 +62,7 @@
 - EC1 EJ2: Implementar CRUD completo a entidad
 
 ## Semana 5
+
 - Guia Rest: https://spring.io/guides/gs/rest-service/
 - Docker, Dockerfile, docker-compose
 - render.com
@@ -124,7 +125,11 @@
     - Instalar en el VS code de CodeSpaces la extensión: Rest Client
     - Escribir archivo reqs.http
     - Probar ...onrender.com/
-- CodeSpaces + Render + PostgreSQL
-- StackOverflow survey
-- 
 
+## Semana 7
+
+  - EC2
+
+## Semana 8
+
+  - .
