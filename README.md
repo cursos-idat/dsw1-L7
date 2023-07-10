@@ -128,7 +128,26 @@
 
 ## Semana 7
 
-  - EC2
+  - Evaluación Contínua 2
+    - Crear un nuevo repositorio
+    - Abrimos el repo usando CodeSpaces
+    - Generamos un nuevo proyecto de java usando https://start.spring.io/
+    - Movemos los archivos generados hacia nuestro repo en CodeSpaces
+    - Instalar las siguientes extensiones:
+      - Extension Pack for Java
+      - REST Client
+    - En Explorer -> Java Projects -> Click en botón verde para activar "Java Projects"
+    - Creamos un Controlador para manejar las rutas que se nos pide
+    - Creamos nuestra clase entidad Curso
+    - Creamos nuestro clase Repository CursoRepository
+    - Configuramos nuestro archivo application.properties para que conecte con nuestro servidor PG de render
+    - Agregamos el Dockerfile
+    - Eliminamos "target/" del archivo .gitignore
+    - Ejecutamos el comando `chmod +x mvnw`
+    - Ejecutamos el comando `./mvnw clean package`
+    - Nos aseguramos que exista y esté versionado nuestro archivo `target/*.jar`
+    - Comiteamos todo, syncronizamos todo (commit & push)
+    - Desplegamos en render
 
 ## Semana 8
 
