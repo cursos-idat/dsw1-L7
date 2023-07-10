@@ -156,8 +156,27 @@
 
     ```xml
     <dependency>
-	<groupId>org.springframework.boot</groupId>
-	<artifactId>spring-boot-starter-data-rest</artifactId>
+	    <groupId>org.springframework.boot</groupId>
+	    <artifactId>spring-boot-starter-data-rest</artifactId>
     </dependency>
     ```
+  - Modificar nuestro archivo Repository
+    
+    ```java
+package com.example.demo;
+
+import org.springframework.data.repository.CrudRepository;
+import org.springframework.data.repository.PagingAndSortingRepository;
+import org.springframework.data.repository.query.Param;
+import org.springframework.data.rest.core.annotation.RepositoryRestResource;
+import java.util.List;
+
+@RepositoryRestResource(collectionResourceRel = "cursos", path = "cursos")
+public interface CursoRepository extends PagingAndSortingRepository<Curso, Integer>,CrudRepository<Curso, Integer> {
+    
+    List<Curso> findByNombre(@Param("nombre") String nombre);
+
+}
+     ```
+  
 
