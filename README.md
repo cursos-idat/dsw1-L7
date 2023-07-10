@@ -178,5 +178,6 @@
 	
 	}
      ```
-  
+  - Agregar de la misma manera las clases Carrera.java (Entidad) y CarreraRepository.java (Repository)
+  - Vincular Curso.java con Carrera.java
 
