@@ -154,10 +154,10 @@
   - Eliminar los controladores existentes
   - Agregar la dependencia:
 
-    ```
+    ```xml
     <dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-data-rest</artifactId>
-		</dependency>
+	<groupId>org.springframework.boot</groupId>
+	<artifactId>spring-boot-starter-data-rest</artifactId>
+    </dependency>
     ```
 
