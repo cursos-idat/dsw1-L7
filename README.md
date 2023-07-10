@@ -151,4 +151,13 @@
 
 ## Semana 8
 
-  - .
+  - Eliminar los controladores existentes
+  - Agregar la dependencia:
+
+    ```
+    <dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-rest</artifactId>
+		</dependency>
+    ```
+
