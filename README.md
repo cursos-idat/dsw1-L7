@@ -130,24 +130,32 @@
 
   - Evaluación Contínua 2
     - Crear un nuevo repositorio
-    - Abrimos el repo usando CodeSpaces
-    - Generamos un nuevo proyecto de java usando https://start.spring.io/
-    - Movemos los archivos generados hacia nuestro repo en CodeSpaces
-    - Instalar las siguientes extensiones:
+    - Abrir con CodeSpace
+    - Creamos un nuevo proyecto de Java: https://start.spring.io/
+      - Project: Maven
+      - Packaging: JAR
+      - Java version: 17
+      - Dependendencies:
+        - Spring Web
+        - Spring Data JPA
+        - PostgreSQL Driver
+    - Instalar Estos plugins:
       - Extension Pack for Java
-      - REST Client
-    - En Explorer -> Java Projects -> Click en botón verde para activar "Java Projects"
-    - Creamos un Controlador para manejar las rutas que se nos pide
-    - Creamos nuestra clase entidad Curso
-    - Creamos nuestro clase Repository CursoRepository
-    - Configuramos nuestro archivo application.properties para que conecte con nuestro servidor PG de render
-    - Agregamos el Dockerfile
-    - Eliminamos "target/" del archivo .gitignore
-    - Ejecutamos el comando `chmod +x mvnw`
-    - Ejecutamos el comando `./mvnw clean package`
-    - Nos aseguramos que exista y esté versionado nuestro archivo `target/*.jar`
-    - Comiteamos todo, syncronizamos todo (commit & push)
-    - Desplegamos en render
+      - Rest Client
+    - En Explorer > Java Projects > clic en "Import Projects"
+    - Crear los archivos, segun referencia: https://github.com/texai/idat-dsw1-accessing-data-mysql
+      - Curso.java
+      - CursoRepository.java
+      - MainController.java
+      - application.properties
+    - Para desplegar en render
+      - Crear archivo Dockerfile
+      - Eliminar "target/" del archivo .gitignore
+      - Ejecutar el comando `chmod +x mvnw`
+      - Ejecutar el comando `./mvnw clean package`
+      - Nos aseguramos que exista y esté versionado nuestro archivo `target/*.jar`
+      - Comiteamos todo, syncronizamos todo (commit & push)
+      - Desplegamos en render
 
 ## Semana 8
 
