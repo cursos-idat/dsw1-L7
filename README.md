@@ -220,3 +220,8 @@
     - Instalar extension cliente de postgresql: Database Client
       - Asignar un id_carrera a los cursos
     - Realizar Pruebas
+   
+## Semana 9
+
+  - [Guía](https://spring.io/guides/tutorials/react-and-spring-data-rest/)
+
