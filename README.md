@@ -224,4 +224,12 @@
 ## Semana 9
 
   - [Guía](https://spring.io/guides/tutorials/react-and-spring-data-rest/)
+    - Creamos un nuevo proyecto de Java: https://start.spring.io/
+      - Dependencias:
+        - Rest Repositories
+        - Thymeleaf
+        - JPA
+        - H2
+
+
 
