@@ -230,3 +230,21 @@
     - Para ejecutar webpack desde versiones de node superiores a la 16: `export NODE_OPTIONS=--openssl-legacy-provider`
     - Ejecutamos webpack para que empquete nuestra aplicación de frontend segun la configuración declarada en el archivo webpack.config.js `./node_modules/webpack-cli/bin/cli.js`
 
+## Semana 10
+
+  - Evaluación Contínua 3
+
+## Semana 11
+
+  - Revisión: Front End
+  - Práctica: 
+
+## Semana 14
+
+  - Evaluación Final:
+    - BackEnd
+      - Contruir 1 servicio web para 2 entidades (CrudRepository, PagingAndSortingRepository)
+      - Controladores adicional
+    - Front End
+      - Vista de tabla de datos, con datos cargados, usando ReactJS
+      - Formulario para crear y editar
