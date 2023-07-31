@@ -237,7 +237,14 @@
 ## Semana 11
 
   - Revisión: Front End
-  - Práctica: 
+  - Práctica:
+    - Tomando como base un repositorio ya con backend y frontend funcionando: https://github.com/texai/semana11-app-cliente-react-L7
+    - Implementar su propia entidad, con al menos 3 atributos (campos)
+      - Modificar clase Entidad
+      - Modificar interface Repository
+      - Modificar Database Loader
+      - Modificar app.js
+      - reqs.http
 
 ## Semana 14
 
