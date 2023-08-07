@@ -246,6 +246,23 @@
       - Modificar app.js
       - reqs.http
 
+## Semana 12
+
+- Dos tablas en la misma vista
+- Componentes React
+  - Clases
+  - Funciones
+- React Router DOM
+- Formulario
+  - onSubmit
+  - onChange
+  - useState
+  - Form POST
+  - redirect to Home
+- Práctica:
+  - Crear un formulario que agregue datos
+- Editar
+
 ## Semana 14
 
   - Evaluación Final:
