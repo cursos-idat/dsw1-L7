@@ -265,6 +265,10 @@
 ## Semana 13
 
 - Editar
+  - [done] Editar Músico
+  - Editar Instrumento 	
+- Controlador exponiendo un resultado con query SQL
+- formulario con select
 - 
 
 ## Semana 14
